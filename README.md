@@ -1,4 +1,3 @@
-Recopilando información del área de trabajo```markdown
 # Bootcamp GitHub 🚀
 
 ¡Bienvenido a mi repositorio de apuntes y avances del Bootcamp de GitHub patrocinado por Microsoft y Codigofacilito! 🎉
@@ -29,4 +28,3 @@ Si tienes sugerencias o mejoras, ¡no dudes en abrir un issue o pull request!
 ---
 
 ¡Disfruta y sigue aprendiendo! 😊
-```
