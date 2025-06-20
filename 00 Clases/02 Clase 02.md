@@ -1,12 +1,14 @@
 # Introducción a Git y GitHub
 
+Instructor: Eduardo
+
 ## Repaso a Git
 
 Git es un sistema de control de versiones distribuido. Permite llevar un registro de los cambios en el código fuente a lo largo del tiempo. Es ampliamente utilizado en el desarrollo de software para colaborar entre múltiples desarrolladores y mantener un historial de cambios.
+
 - Distribuido: Cada desarrollador tiene una copia completa del repositorio en su máquina local.
 - Historial: Permite ver el historial de cambios, revertir a versiones anteriores y comparar diferentes versiones del código.
 - Integridad de datos: Utiliza un sistema de hash (SHA-1) para asegurar la integridad de los datos.
-
 
 ### Funcionamiento de Git
 
@@ -20,7 +22,6 @@ Un commit es una instantánea del estado del proyecto en un momento dado. Cada c
 
 - Es la unidad fundamental de trabajo en Git.
 - Podemos verlo como un snapshot del proyecto en un momento dado.
-
 
 ## Comandos básicos de Git
 
@@ -124,11 +125,24 @@ Buena práctica en uso de prefijos:
 - `build/`: Rama para cambios en el proceso de construcción del proyecto.
 - `deploy/`: Rama para cambios en el proceso de despliegue del proyecto.
 
-
 ## Gitignore
 
 El archivo `.gitignore` se utiliza para especificar qué archivos o directorios deben ser ignorados por Git. Esto es útil para evitar que archivos temporales, de configuración local o de compilación sean incluidos en el repositorio.
 
 ## Nuevo Repositorio
+
 ## Commit
+
+## Pull Request
+
+Un Pull Request (PR) es una solicitud para fusionar cambios de una rama a otra en
+un repositorio de Git. Es una forma de revisar y discutir los cambios antes de que se integren en la rama principal del proyecto. Los PR son comunes en plataformas como GitHub, GitLab y Bitbucket.
+
 ## Ramas
+
+Las ramas en Git son una forma de trabajar en diferentes versiones del código de manera aislada. Permiten desarrollar nuevas características, corregir errores o experimentar con cambios sin afectar la rama principal del proyecto.
+
+## Repositorio remoto
+
+Un repositorio remoto es una versión del repositorio de Git que se aloja en un servidor o en una plataforma de control de versiones como GitHub, GitLab o Bitbucket. Permite a los desarrolladores colaborar y compartir su trabajo con otros.
+Los repositorios remotos son útiles para mantener una copia centralizada del código y facilitar la colaboración entre múltiples desarrolladores. Los cambios realizados en el repositorio local pueden ser enviados al repositorio remoto mediante el comando `git push`, y los cambios realizados por otros desarrolladores pueden ser descargados mediante `git pull`.
